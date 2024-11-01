@@ -1,0 +1,1018 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Minimum Maximum Quantity\n"
+"POT-Creation-Date: 2015-12-23 14:25+0100\n"
+"PO-Revision-Date: 2015-12-23 14:25+0100\n"
+"Last-Translator: \n"
+"Language-Team: Your Inspiration Themes <plugins@yithemes.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: ../class.yith-wc-min-max-qty.php:129 ../class.yith-wc-min-max-qty.php:135
+msgid "General Settings"
+msgstr "Impostazioni generali"
+
+#: ../class.yith-wc-min-max-qty.php:130
+msgid "Message Settings"
+msgstr "Impostazioni messaggi"
+
+#: ../class.yith-wc-min-max-qty.php:131
+msgid "Bulk Actions"
+msgstr "Azioni di gruppo"
+
+#: ../class.yith-wc-min-max-qty.php:132
+msgid "How To"
+msgstr "Come fare per"
+
+#: ../class.yith-wc-min-max-qty.php:136 ../class.yith-wc-min-max-qty.php:469
+msgid "Premium Version"
+msgstr "Versione premium"
+
+#: ../class.yith-wc-min-max-qty.php:142
+msgctxt "plugin name in admin page title"
+msgid "Minimum Maximum Quantity"
+msgstr "Minimum Maximum Quantity"
+
+#: ../class.yith-wc-min-max-qty.php:143
+msgctxt "plugin name in admin WP menu"
+msgid "Minimum Maximum Quantity"
+msgstr "Minimum Maximum Quantity"
+
+#: ../class.yith-wc-min-max-qty.php:176
+msgid "Cart updated."
+msgstr "Carrello aggiornato."
+
+#: ../class.yith-wc-min-max-qty.php:334
+#, php-format
+msgid "Your cart must contain at least %s products."
+msgstr "Il tuo carrello deve contenere almeno %s prodotti."
+
+#: ../class.yith-wc-min-max-qty.php:346
+#, php-format
+msgid "Your cart cannot contain more than %s products."
+msgstr "Il tuo carrello non può contenere più di %s prodotti."
+
+#: ../class.yith-wc-min-max-qty.php:466
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: ../class.yith-wc-min-max-qty.php:496
+msgid "Plugin Documentation"
+msgstr "Documentazione plugin"
+
+#: ../init.php:23
+msgid ""
+"You can't activate the free version of YITH WooCommerce Minimum Maximum "
+"Quantity while you are using the premium one."
+msgstr ""
+"Non è possibile attrivare la versione free di YITH WooCommerce Minimum "
+"Maximum Quantity se stai già utilizzando la premium."
+
+#: ../init.php:31
+msgid ""
+"YITH WooCommerce Minimum Maximum Quantity is enabled but not effective. It "
+"requires WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce Minimum Maximum Quantity è abilitato ma non in funzione. "
+"Devi aver installato WooCommerce perché questo possa funzionare "
+"correttamente."
+
+#: ../plugin-options/general-options.php:20
+msgid "Minimum Maximum Quantity settings"
+msgstr "Impostazioni di Minimum Maximum Quantity"
+
+#: ../plugin-options/general-options.php:24
+msgid "Enable YITH WooCommerce Minimum Maximum Quantity"
+msgstr "Abilita YITH WooCommerce Minimum Maximum Quantity"
+
+#: ../plugin-options/general-options.php:35
+msgid "Cart restrictions"
+msgstr "Restrizioni carrello"
+
+#: ../plugin-options/general-options.php:39
+msgid "Minimum quantity restriction"
+msgstr "Quantità massima"
+
+#: ../plugin-options/general-options.php:41
+msgid "Minimum number of items in cart. Set zero for no restrictions."
+msgstr ""
+"Numero minimo di articoli nel carrello. Seleziona zero per non applicare "
+"restrizioni."
+
+#: ../plugin-options/general-options.php:50
+msgid "Maximum quantity restriction"
+msgstr "Quantità minima"
+
+#: ../plugin-options/general-options.php:52
+msgid "Maximum number of items in cart. Set zero for no restrictions."
+msgstr ""
+"Numero massimo di articoli nel carrello. Seleziona zero per non applicare "
+"restrizioni."
+
+#: ../templates/admin/premium.php:289 ../templates/admin/premium.php:406
+#, php-format
+msgid ""
+"Upgrade to %1$spremium version%2$s of %1$sYITH WooCommerce Minimum Maximum "
+"Quantity%2$s to benefit from all features!"
+msgstr ""
+"Aggiorna alla%1$sversion e premium%2$s di %1$sYITH WooCommerce Minimum "
+"Maximum Quantity%2$s per usufruire di tutte le sue funzionalità!"
+
+#: ../templates/admin/premium.php:292 ../templates/admin/premium.php:409
+msgid "UPGRADE"
+msgstr "AGGIORNA"
+
+#: ../templates/admin/premium.php:293 ../templates/admin/premium.php:410
+msgid "to the premium version"
+msgstr "alla versione premium"
+
+#: ../templates/admin/premium.php:299
+msgid "Premium Features"
+msgstr "Funzionalità premium"
+
+#: ../templates/admin/premium.php:303 ../templates/admin/premium.php:309
+msgid "Quantity restrictions"
+msgstr "Restrizioni sulla quantità"
+
+#: ../templates/admin/premium.php:312
+#, php-format
+msgid ""
+"With the premium version of the plugin, you will be free to apply "
+"%1$srestrictions%2$s to the purchase process according to the number of "
+"products in the cart, or to the amount of elements selected by users. And "
+"there is more: the restriction process can also be applied to %1$sproduct "
+"categories%2$s and %1$stags,%2$s depending on the related objects available "
+"in the cart."
+msgstr ""
+"Con la versione premium del plugin sarai libero di applicare %1$srestrizioni"
+"%2$s al processo di acquisto sulla base del numero di prodotti presenti nel "
+"carrello o al numero di elementi selezionati dall’utente. Ma non finisce "
+"qui: il criterio di restrizione può andare al di là dei singoli prodotti ed "
+"essere applicato a %1$scategorie e tag%1$s e calcolare la restrizione in "
+"base al numero di prodotti nel carrello appartenenti ad un determinato tag o "
+"categoria."
+
+#: ../templates/admin/premium.php:323
+msgid "Spend amount restrictions"
+msgstr "Restrizioni sull'importo"
+
+#: ../templates/admin/premium.php:326
+#, php-format
+msgid ""
+"Even the spend amount can be managed with the plugin, with the freedom to "
+"set a %1$sminimum and maximum spend amount%2$s on the cart total. Moreover, "
+"you can monitor the spend amount considering the products of the same "
+"category or tag. More and more solutions for the best result."
+msgstr ""
+"Non solo quantità, anche l’importo di spesa può essere gestito con il "
+"plugin, dandoti l’opportunità di indicare una %1$sspesa minima e massima%2$s "
+"sul totale del carrello. Inoltre, puoi tenere sotto controllo la spesa per "
+"prodotti che appartengono a una data categoria o che sono associati a uno "
+"specifico tag. Sempre più soluzioni per il miglior risultato."
+
+#: ../templates/admin/premium.php:330
+msgid "Spend restriction"
+msgstr "Restrizione spesa"
+
+#: ../templates/admin/premium.php:337 ../templates/admin/premium.php:343
+msgid "Purchase rules"
+msgstr "Regole di acquisto"
+
+#: ../templates/admin/premium.php:346
+#, php-format
+msgid ""
+"If you have decided to apply restrictions to your shop, it is vital that "
+"your users are well informed about the %1$sconditions%2$s you decided to "
+"apply for the purchase of particular products of your store. Activate the "
+"complete display of the purchase %1$srules%2$s in the product detail page, "
+"choosing their best position in order to let your users complete their "
+"orders with no hitches."
+msgstr ""
+"Se hai deciso di applicare delle restrizioni per gli acquisti sul tuo shop, "
+"è bene che il tuo utente sia ben informato circa le %1$scondizioni%2$s che "
+"hai deciso di applicare a determinati prodotti del tuo store. Attiva la "
+"visualizzazione completa delle %1$sregole%2$s d’acquisto all’interno della "
+"pagina dettaglio prodotto, scegliendo la posizione più adatta, così che i "
+"tuoi utenti possano portare a termine il loro ordine senza alcun problema."
+
+#: ../templates/admin/premium.php:357
+msgid "Error messages "
+msgstr "Messaggi di errore "
+
+#: ../templates/admin/premium.php:360
+#, php-format
+msgid ""
+"The more restrictions you will apply to the cart, the more your users could "
+"encounter problems in completing their orders. Activate %1$serror messages"
+"%2$s and customize them in the best way to give always the necessary "
+"information to complete a purchase process."
+msgstr ""
+"Maggiori sono le restrizioni applicate al carrello, maggiori saranno i casi "
+"in cui l’utente potrebbe non essere in grado di portare a compimento "
+"l’ordine. \n"
+"Attiva i %1$smessaggi di errore%2$s e personalizzali nella maniera più "
+"opportuna, per dare sempre le istruzioni necessarie per portare "
+"correttamente a termine il processo di acquisto."
+
+#: ../templates/admin/premium.php:364
+msgid "Error messages"
+msgstr "Messaggi di errore"
+
+#: ../templates/admin/premium.php:371 ../templates/admin/premium.php:377
+msgid "Product exclusion"
+msgstr "Esclusioni prodotto"
+
+#: ../templates/admin/premium.php:380
+#, php-format
+msgid ""
+"When you have a vast shop, you could need to apply different strategies on "
+"your products. If you have configured restrictions, %1$syou can exclude one "
+"or more products%2$s to let your users purchase them directly."
+msgstr ""
+"Quando hai uno shop molto grande, potresti avere la necessità di applicare "
+"strategie differenti per alcuni prodotti. Se hai configurato delle "
+"restrizioni, puoi fare in modo da %1$sescludere uno o più prodotti%2$s, in "
+"modo tale che questi possano essere acquistati senza alcun tipo di vincolo "
+"per l’utente."
+
+#: ../templates/admin/premium.php:391 ../templates/admin/premium.php:398
+msgid "Bulk actions"
+msgstr "Azioni di massa"
+
+#: ../templates/admin/premium.php:394
+#, php-format
+msgid ""
+"Vey often you need to apply the same edit to more products of the shop, and "
+"this action can require an annoying amount of time. The plugin has been "
+"conceived with a section where you can apply a %1$ssingle action on more "
+"products,%2$s adding particular restrictions about quantity and spend amount "
+"for the products of the carts."
+msgstr ""
+"Spesso e volentieri si ha la necessità di voler apportare la medesima "
+"modifica a più prodotti dello shop e questa può richiedere un dispendio di "
+"tempo non indifferente. Il plugin è stato, però, pensato con una sezione da "
+"cui è possibile applicare %1$sun’unica azione su più prodotti%2$s, inserendo "
+"particolari restrizioni relative a quantità e importo per i prodotti "
+"presenti nel carrello."
+
+#~ msgid ""
+#~ "Even the spend amount can be managed with the plugin, with the freedom to "
+#~ "set a %1$sminimum and maximum spend amount%2$s on the cart total."
+#~ "Moreover, you can monitor the spend amount considering the products of "
+#~ "the same category or tag. More and more solutions for the best result."
+#~ msgstr ""
+#~ "Non solo quantità, anche l’importo di spesa può essere gestito con il "
+#~ "plugin, dandoti l’opportunità di indicare una %1$sspesa minima e massima"
+#~ "%2$s sul totale del carrello. Inoltre, puoi tenere sotto controllo la "
+#~ "spesa per prodotti che appartengono a una data categoria o che sono "
+#~ "associati a uno specifico tag. Sempre più soluzioni per il miglior "
+#~ "risultato."
+
+#~ msgid "Placeholder reference"
+#~ msgstr "Riferimenti segnaposto"
+
+#~ msgid "For further information"
+#~ msgstr "Per ulteriori informazioni"
+
+#~ msgid "Replaced with not reached or exceeded quantity or spend restriction."
+#~ msgstr ""
+#~ "Inserisce la limitazione su quantità o spesa non sufficiente o superiore."
+
+#~ msgid "Replaced with cart quantity."
+#~ msgstr "Inserisce la quantità carrello."
+
+#~ msgid "Replaced with cart value."
+#~ msgstr "Inserisce il valore del carrello."
+
+#~ msgid "Replaced with product name."
+#~ msgstr "Inserisce il nome del prodotto."
+
+#~ msgid "Replaced with category name."
+#~ msgstr "Inserisce il nome della categoria."
+
+#~ msgid "Replaced with tag name."
+#~ msgstr "Inserisce il nome del tag."
+
+#~ msgid "Replaced with active rules."
+#~ msgstr "Inserisce le regole attive."
+
+#~ msgid "Products"
+#~ msgstr "Prodotti"
+
+#~ msgid "Categories"
+#~ msgstr "Categorie"
+
+#~ msgid "Tags"
+#~ msgstr "Tag"
+
+#~ msgctxt "plugin name in product edit tab"
+#~ msgid "Minimum Maximum Quantity"
+#~ msgstr "Quantità minima e massima"
+
+#~ msgid "Exclude product"
+#~ msgstr "Escludi prodotti"
+
+#~ msgid "Do not apply any of the plugin restrictions to this product"
+#~ msgstr "Non applicare le restrizioni impostate dal plugin a questo prodotto"
+
+#~ msgid "Override product restrictions"
+#~ msgstr "Sovrascrivi restrizioni prodotto"
+
+#~ msgid ""
+#~ "Global product restrictions will be overridden by these ones. Set zero "
+#~ "for no restrictions."
+#~ msgstr ""
+#~ "Le restrizioni prodotto globali verranno sovrascritte da quelle correnti. "
+#~ "Imposta il valore zero per non applicare alcuna restrizione."
+
+#~ msgid "Enable variation restrictions"
+#~ msgstr "Abilita restrizioni per variazione"
+
+#~ msgid ""
+#~ "Set plugin restrictions for product variation instead of for the entire "
+#~ "product."
+#~ msgstr ""
+#~ "Applica le restrizioni del plugin alla variazione prodotto invece che a "
+#~ "tutto il prodotto."
+
+#~ msgid "Category restrictions"
+#~ msgstr "Restrizioni per categoria"
+
+#~ msgid "Exclude category"
+#~ msgstr "Escludi categoria"
+
+#~ msgid "Do not apply restrictions to product belonging to this category"
+#~ msgstr ""
+#~ "Non applicare restrizioni ai prodotti appartenenti a questa categoria"
+
+#~ msgid "Override quantity restrictions"
+#~ msgstr "Sovrascrivi restrizioni di quantità"
+
+#~ msgid ""
+#~ "Global category quantity restrictions will be overridden by current ones. "
+#~ "Set zero for no restrictions."
+#~ msgstr ""
+#~ "Le restrizioni di quantità per categoria saranno sovrascritte da quelle "
+#~ "correnti. Imposta zero per non applicare restrizioni."
+
+#~ msgid "Override spend restrictions"
+#~ msgstr "Sovrascrivi restrizioni di spesa"
+
+#~ msgid ""
+#~ "Global category spend restrictions will be overridden by current ones. "
+#~ "Set zero for no restrictions."
+#~ msgstr ""
+#~ "Le restrizioni di spesa per categoria saranno sovrascritte da quelle "
+#~ "correnti. Imposta zero per non applicare restrizioni."
+
+#~ msgid "Minimum spend restriction"
+#~ msgstr "Spesa minima"
+
+#~ msgid "Maximum spend restriction"
+#~ msgstr "Spesa massima"
+
+#~ msgid "Tag restrictions"
+#~ msgstr "Restrizioni tag"
+
+#~ msgid "Exclude tag"
+#~ msgstr "Escludi tag"
+
+#~ msgid "Do not apply restrictions to products with this tag"
+#~ msgstr "Non applicare le restrizioni ai prodotti con questo tag"
+
+#~ msgid ""
+#~ "Global tag quantity restrictions will be overridden by current ones. Set "
+#~ "zero for no restrictions."
+#~ msgstr ""
+#~ "Le restrizioni di quantità per il tag saranno sovrascritte da quelle "
+#~ "correnti. Imposta zero per non applicare restrizioni."
+
+#~ msgid ""
+#~ "Global spend restrictions for tag will be overridden by current ones. Set "
+#~ "zero for no restrictions."
+#~ msgstr ""
+#~ "Restrizioni di spesa per tag saranno sovrascritte da quelle correnti. "
+#~ "Imposta zero per non applicare restrizioni."
+
+#~ msgid ""
+#~ "Items marked with %s do not contribute to reaching the purchase objective "
+#~ "set"
+#~ msgstr ""
+#~ "Gli articoli contrassegnati con %s non contribuiscono al raggiungimento "
+#~ "dell'obiettivo di acquisto selezionato"
+
+#~ msgid "Check items marked with %s"
+#~ msgstr "Spunta gli articoli contrassegnati con %s"
+
+#~ msgid "Maximum quantity allowed for this product: %d"
+#~ msgstr "Quantità massima consentita per questo prodotto: %d"
+
+#~ msgid "Minimum quantity required for this product: %d"
+#~ msgstr "Quantità minima richiesta per questo prodotto: %d"
+
+#~ msgid "Quantities allowed for this product: minimum %d - maximum %d"
+#~ msgstr "Quantità consentite per questo prodotto: minima %d - massima %d"
+
+#~ msgid "Cart can contain %d items at most."
+#~ msgstr "Il carrello può contenere un massimo di %d articoli."
+
+#~ msgid "Cart must contain %d items at least."
+#~ msgstr "Il carrello deve contenere almeno %d articoli."
+
+#~ msgid "Cart must contain at least %d items but no more than %d"
+#~ msgstr "Il carrello deve contenere almeno %d articoli ma non più di %d"
+
+#~ msgid "Cart can contain no more than %s items."
+#~ msgstr "Il carrello non può contenere più di %s articoli."
+
+#~ msgid "Cart must contain %s items at least"
+#~ msgstr "Il carrello deve contenere almeno %s articoli."
+
+#~ msgid "Cart must contain at least %s items but no more than %s"
+#~ msgstr "Il carrello deve contenere almeno %s articoli, ma non più di %s."
+
+#~ msgid "Maximum quantity allowed for category %s: %d"
+#~ msgstr "Quantità massima consentita per la categoria %s: %d"
+
+#~ msgid "Minimum quantity required for category %s: %d"
+#~ msgstr "Quantità minima richiesta per la categoria %s: %d"
+
+#~ msgid "Quantities allowed for category %s: minimum %d - maximum %d"
+#~ msgstr "Quantità consentite per la categoria %s: minima %d - massima %d"
+
+#~ msgid "Maximum spend allowed for category %s: %d"
+#~ msgstr "Spesa minima consentita per la categoria %s: %d"
+
+#~ msgid "Minimum spend required for category %s: %d"
+#~ msgstr "Spesa minima richiesta per la categoria %s: %d"
+
+#~ msgid "Spend allowed for category %s: minimum %s - maximum %s"
+#~ msgstr "Spesa consentita per la categoria %s: minima %s - massima %s"
+
+#~ msgid "Maximum quantity allowed for tag %s: %d"
+#~ msgstr "Quantità massima consentita per il tag %s: %d"
+
+#~ msgid "Minimum quantity required for tag %s: %d"
+#~ msgstr "Quantità minima richiesta per il tag %s: %d"
+
+#~ msgid "Quantities allowed for tag %s: minimum %d - maximum %d"
+#~ msgstr "Quantità consentite per il tag %s: minimo %d - massimo %d"
+
+#~ msgid "Maximum spend allowed for tag %s: %d"
+#~ msgstr "Spesa massima consentita per il tag %s: %d"
+
+#~ msgid "Minimum spend required for tag %s: %d"
+#~ msgstr "Spesa minima richiesta per il tag %s: %d"
+
+#~ msgid "Spend allowed for tag %s: minimum %s - maximum %s"
+#~ msgstr "Spesa consentita per il tag %s: minima %s - massima %s"
+
+#~ msgid "Shipping fees and related taxes excluded."
+#~ msgstr "Spese di spedizione e relative tasse escluse."
+
+#~ msgid "Allowed placeholders:"
+#~ msgstr "Segnaposti:"
+
+#~ msgid "More info"
+#~ msgstr "Per saperne di più"
+
+#~ msgid "Show rules on product page"
+#~ msgstr "Mostra regole nella pagina prodotto"
+
+#~ msgid "Position in product page"
+#~ msgstr "Posizione nella pagina prodotto"
+
+#~ msgid "Set the position in product detail page where showing rules."
+#~ msgstr ""
+#~ "Seleziona la posizione in cui mostrare le regole all'interno della pagina "
+#~ "dettaglio prodotto."
+
+#~ msgid "Before title"
+#~ msgstr "Prima del titolo"
+
+#~ msgid "After price"
+#~ msgstr "Dopo il prezzo"
+
+#~ msgid "Before \"Add to cart\""
+#~ msgstr "Prima del pulsante \"Aggiungi al carrello\""
+
+#~ msgid "Before tabs"
+#~ msgstr "Prima delle tab"
+
+#~ msgid "Text before rules"
+#~ msgstr "Testo prima delle regole"
+
+#~ msgid "Explanatory text shown before purchase rules."
+#~ msgstr "Testo descrittivo mostrato prima delle regole di acquisto."
+
+#~ msgid "The following rules are working: {rules}"
+#~ msgstr "Sono attive le seguenti regole: {rules}"
+
+#~ msgid "Cart Page Error Messages"
+#~ msgstr "Messaggi errore pagina carrello"
+
+#~ msgid "Minimum cart quantity not reached"
+#~ msgstr "Quantità minima carrello non raggiunta"
+
+#~ msgid "Your cart must contain at least {limit} products."
+#~ msgstr "Il tuo carrello deve contenere almeno {limit} prodotti."
+
+#~ msgid "Maximum cart quantity exceeded"
+#~ msgstr "Quantità massima carrello superata"
+
+#~ msgid "Your cart cannot contain more than {limit} products."
+#~ msgstr "Il tuo carrello non può contenere più di {limit} prodotti."
+
+#~ msgid "Minimum cart spend not reached"
+#~ msgstr "Spesa minima carrello non raggiunta"
+
+#~ msgid "Your cart totals must be at least {limit}."
+#~ msgstr "Il totale del tuo carrello deve raggiungere un minimo di {limit}"
+
+#~ msgid "Maximum cart spend exceeded"
+#~ msgstr "Spesa massima carrello superata"
+
+#~ msgid "Your cart totals cannot exceed {limit}."
+#~ msgstr "Il totale del tuo carrello non può superare {limit}"
+
+#~ msgid "Minimum product quantity not reached"
+#~ msgstr "Quantità minima prodotto non raggiunta"
+
+#~ msgid "You must purchase at least {limit} units of {product_name}."
+#~ msgstr "Devi acquistare almeno {limit} unità di {product_name}."
+
+#~ msgid "Maximum product quantity exceeded"
+#~ msgstr "Quantità massima prodotto superata"
+
+#~ msgid "You cannot purchase more than {limit} units of {product_name}."
+#~ msgstr "Non puoi acquistare più di {limit} unità di {product_name}."
+
+#~ msgid "Minimum category quantity not reached"
+#~ msgstr "Quantità minima per la categoria non raggiunta"
+
+#~ msgid ""
+#~ "Your cart must contain at least {limit} products belonging to category "
+#~ "{category_name}."
+#~ msgstr ""
+#~ "Il tuo carrello deve contenere almeno {limit} prodotti appartenenti alla "
+#~ "categoria {category_name}."
+
+#~ msgid "Maximum category quantity exceeded"
+#~ msgstr "Quantità massima per la categoria superata"
+
+#~ msgid ""
+#~ "Your cart cannot contain more than {limit} products belonging to category "
+#~ "{category_name}."
+#~ msgstr ""
+#~ "Il tuo carrello non può contenere più di {limit} prodotti appartenenti "
+#~ "alla categoria {category_name}."
+
+#~ msgid "Minimum category spend not reached"
+#~ msgstr "Spesa minima per la categoria non raggiunta"
+
+#~ msgid ""
+#~ "You must spend at least {limit} for products belonging to category "
+#~ "{category_name}."
+#~ msgstr ""
+#~ "Devi raggiungere almeno {limit} di prodotti appartenenti alla categoria "
+#~ "{category_name}."
+
+#~ msgid "Maximum category spend exceeded"
+#~ msgstr "Spesa massima per la categoria superata"
+
+#~ msgid ""
+#~ "You cannot spend more than {limit} for products belonging to category "
+#~ "{category_name}."
+#~ msgstr ""
+#~ "Non puoi effettuare più di {limit} di spesa per prodotti appartenenti "
+#~ "alla categoria {category_name}."
+
+#~ msgid "Minimum tag quantity not reached"
+#~ msgstr "Quantità minima per il tag non raggiunta"
+
+#~ msgid "Your cart must contain {limit} products with tagged {tag_name}."
+#~ msgstr ""
+#~ "Il tuo carrello deve contenere almeno {limit} prodotti con il tag "
+#~ "{tag_name}."
+
+#~ msgid "Maximum tag quantity exceeded"
+#~ msgstr "Quantità massima per il tag superata"
+
+#~ msgid ""
+#~ "Your cart cannot contain more than {limit} products tagged {tag_name}."
+#~ msgstr ""
+#~ "Il tuo carrello non può contenere più di {limit} prodotti con il tag "
+#~ "{tag_name}."
+
+#~ msgid "Minimum tag spend not reached"
+#~ msgstr "Spesa minima per il tag non raggiunta"
+
+#~ msgid "You must spend at least {limit} for products tagged {tag_name}."
+#~ msgstr ""
+#~ "Devi raggiungere almeno {limit} di spesa per prodotti con il tag "
+#~ "{tag_name}."
+
+#~ msgid "Maximum tag spend exceeded"
+#~ msgstr "Spesa massima per il tag superata"
+
+#~ msgid "You cannot spend more than {limit} for products tagged {tag_name}."
+#~ msgstr ""
+#~ "Non puoi effettuare più di {limit} di spesa per prodotti con il tag "
+#~ "{tag_name}."
+
+#~ msgid "\"Add to Cart\" Error Messages"
+#~ msgstr "Messaggi di errore \"Aggiungi al carrello\""
+
+#~ msgid "Enable messages on Add to Cart"
+#~ msgstr "Abilita messaggi al clic su \"Aggiungi al carrello\""
+
+#~ msgid ""
+#~ "The product has been added to the cart, but minimum number of items "
+#~ "required in cart ({limit}) has not been reached yet."
+#~ msgstr ""
+#~ "Il prodotto è stato aggiunto al carrello, ma il numero di articoli minimo "
+#~ "richiesto nel carrello ({limit}) non è stato ancora raggiunto."
+
+#~ msgid ""
+#~ "You cannot add this product because your cart cannot contain more than "
+#~ "{limit} products."
+#~ msgstr ""
+#~ "Non puoi aggiungere questo prodotto poiché il tuo carrello contiene più "
+#~ "di {limit} prodotti."
+
+#~ msgid ""
+#~ "The product has been added to the cart but minimum spend required "
+#~ "({limit}) has not be reached yet."
+#~ msgstr ""
+#~ "Il prodotto è stato aggiunto al carrello ma il minimo di spesa richiesto "
+#~ "({limit}) non è stato ancora raggiunto."
+
+#~ msgid ""
+#~ "You cannot add this product, because maximum totals for your cart cannot "
+#~ "exceed {limit}."
+#~ msgstr ""
+#~ "Non puoi aggiungere questo prodotto, poiché hai superato il totale "
+#~ "massimo di spesa per il tuo carrello {limit}."
+
+#~ msgid ""
+#~ "The product has been added to the cart, but minimum quantity required for "
+#~ "this product ({limit}) has not been reached yet."
+#~ msgstr ""
+#~ "Il prodotto è stato aggiunto al carrello, ma la quantità minima richiesta "
+#~ "per questo prodotto ({limit}) non è stata ancora raggiunta."
+
+#~ msgid ""
+#~ "You cannot add this product because maximum quantity for this product "
+#~ "({limit}) has been reached."
+#~ msgstr ""
+#~ "Non puoi aggiungere questo prodotto poiché la quantità massima consentita "
+#~ "per questo prodotto ({limit}) è stata raggiunta."
+
+#~ msgid ""
+#~ "The product has been added to the cart, but minimum quantity required for "
+#~ "category {category_name} ({limit}) has not been reached yet."
+#~ msgstr ""
+#~ "Il prodotto è stato aggiunto al carrello, ma la quantità minima richiesta "
+#~ "per la categoria {category_name} ({limit}) non è stata ancora raggiunta."
+
+#~ msgid ""
+#~ "You cannot add this product because your cart cannot contain more than "
+#~ "{limit} products belonging to category {category_name}."
+#~ msgstr ""
+#~ "Non puoi aggiungere questo prodotto poiché il tuo carrello non può "
+#~ "contenere più di {limit} prodotti appartenenti alla categoria "
+#~ "{category_name}."
+
+#~ msgid ""
+#~ "The product has been added to the cart, but minimum spend required for "
+#~ "category {category_name} ({limit}) has not been reached yet."
+#~ msgstr ""
+#~ "Il prodotto è stato aggiunto al carrello, ma il minimo di spesa richiesto "
+#~ "per la categoria {category_name} ({limit}) non è stato ancora raggiunto."
+
+#~ msgid ""
+#~ "You cannot add this product because total spend for products belonging to "
+#~ "category {category_name} cannot exceed {limit}."
+#~ msgstr ""
+#~ "Non puoi aggiungere questo prodotto poiché il totale di spesa per "
+#~ "prodotti appartenenti alla categoria {category_name} non può superare "
+#~ "{limit}."
+
+#~ msgid ""
+#~ "The product has been added to the cart but minumum required quantity for "
+#~ "products tagged {tag_name} ({limit}) has not been reached yet."
+#~ msgstr ""
+#~ "Il prodotto è stato aggiunto al carrello, ma la quantità minima richiesta "
+#~ "per i prodotti con il tag {tag_name} ({limit}) non è stata ancora "
+#~ "raggiunta."
+
+#~ msgid ""
+#~ "You cannot add this product because your cart cannot contain more than "
+#~ "{limit} products tagged {tag_name}"
+#~ msgstr ""
+#~ "Non puoi aggiungere questo prodotto poiché il tuo carrello non può "
+#~ "contenere più di {limit} prodotti con il tag {tag_name}"
+
+#~ msgid ""
+#~ "The product has been added to the cart but minimum spend required for "
+#~ "products tagged {tag_name} ({limit}) has not been reached yet."
+#~ msgstr ""
+#~ "Il prodotto è stato aggiunto al carrello, ma la spesa minima richiesta "
+#~ "per i prodotti con il tag {tag_name} ({limit}) non è stata ancora "
+#~ "raggiunta."
+
+#~ msgid ""
+#~ "You cannot add this product because total spend for products tagged "
+#~ "{tag_name} cannot exceed {limit}."
+#~ msgstr ""
+#~ "Non puoi aggiungere questo prodotto poiché la spesa totale per i prodotti "
+#~ "con il tag {tag_name} non può superare {limit}."
+
+#~ msgid "Enable cart quantity restrictions"
+#~ msgstr "Abilita restrizioni quantità nel carrello"
+
+#~ msgid "Enable cart spend restrictions"
+#~ msgstr "Abilita restrizioni spesa nel carrello"
+
+#~ msgid "Minimum spend for items in cart. Set zero for no restrictions."
+#~ msgstr ""
+#~ "Spesa minima per gli articoli nel carrello. Imposta zero per non "
+#~ "applicare restrizioni."
+
+#~ msgid "Include shipping rates and relative fees."
+#~ msgstr "Includi spese di spedizione e relative tasse."
+
+#~ msgid "Product restrictions"
+#~ msgstr "Restrizioni prodotto"
+
+#~ msgid "Enable product quantity restrictions"
+#~ msgstr "Abilita restrizioni quantità prodotto"
+
+#~ msgid ""
+#~ "Minimum number of items required for each product. Set zero for no "
+#~ "restrictions."
+#~ msgstr ""
+#~ "Numero minimo di articoli richiesto per ciascun prodotto. Imposta zero "
+#~ "per non applicare restrizioni."
+
+#~ msgid ""
+#~ "Maximum quantity allowed for each single product. Set zero for no "
+#~ "restrictions."
+#~ msgstr ""
+#~ "Quantità massima consentita per ogni singolo prodotto. Imposta zero per "
+#~ "non applicare restrizioni."
+
+#~ msgid "Enable category quantity restrictions"
+#~ msgstr "Abilita restrizioni quantità per categoria"
+
+#~ msgid "Enable category spend restrictions"
+#~ msgstr "Abilita restrizioni spesa per categoria"
+
+#~ msgid "Enable tag quantity restrictions"
+#~ msgstr "Abilita restrizioni quantità per tag"
+
+#~ msgid "Enable tag spend restrictions"
+#~ msgstr "Abilita restrizioni spesa per tag"
+
+#~ msgid "Maximum spend for items in cart. Set zero for no restrictions."
+#~ msgstr ""
+#~ "Massimo di spesa per gli articoli nel carrello. Imposta zero per non "
+#~ "applicare restrizioni."
+
+#~ msgid "category"
+#~ msgstr "categoria"
+
+#~ msgid "categories"
+#~ msgstr "categorie"
+
+#~ msgid "Category"
+#~ msgstr "Categoria"
+
+#~ msgid "Excluded"
+#~ msgstr "Escludi"
+
+#~ msgid "Override Quantity Restrictions"
+#~ msgstr "Sovrascrivi restrizioni quantità"
+
+#~ msgid "Override Spend Restrictions"
+#~ msgstr "Sovrascrivi restrizioni spesa"
+
+#~ msgid "Edit rule"
+#~ msgstr "Modifica regole"
+
+#~ msgid "Edit category"
+#~ msgstr "Modifica categoria"
+
+#~ msgid "Remove from list"
+#~ msgstr "Rimuovi dalla lista"
+
+#~ msgid "Yes"
+#~ msgstr "Sì"
+
+#~ msgid "No"
+#~ msgstr "No"
+
+#~ msgid "Min.: %d - Max.: %d"
+#~ msgstr "Min.: %d - Max.: %d"
+
+#~ msgid "%s category added successfully"
+#~ msgid_plural "%s categories added successfully"
+#~ msgstr[0] "%s categoria aggiunta con successo"
+#~ msgstr[1] "%s categorie aggiunte con successo"
+
+#~ msgid "Category updated successfully"
+#~ msgstr "Categoria aggiornata con successo"
+
+#~ msgid "%s category removed successfully"
+#~ msgid_plural "%s categories removed successfully"
+#~ msgstr[0] "%s categoria rimossa con successo"
+#~ msgstr[1] "%s categorie rimosse con successo"
+
+#~ msgid "Category Rule list"
+#~ msgstr "Elenco regole categoria"
+
+#~ msgid "Add Categories"
+#~ msgstr "Tutte le categorie"
+
+#~ msgid "Category to edit"
+#~ msgstr "Categoria da modificare"
+
+#~ msgid "Categories to add"
+#~ msgstr "Categorie da aggiungere"
+
+#~ msgid "Search for a product&hellip;"
+#~ msgstr "Cerca un prodotto&hellip;"
+
+#~ msgid "Do not apply restrictions to products belonging to this category"
+#~ msgstr ""
+#~ "Non applicare restrizioni ai prodotti appartenenti a questa categoria"
+
+#~ msgid ""
+#~ "Do not apply restrictions to products belonging to categories selected"
+#~ msgstr ""
+#~ "Non applicare restrizioni ai prodotti appartenenti alle categorie "
+#~ "selezionate"
+
+#~ msgid "Override category restrictions"
+#~ msgstr "Sovrascrivi restrizioni categoria"
+
+#~ msgid ""
+#~ "Global spend restrictions for category will be overridden by current "
+#~ "ones. Set zero for no restrictions."
+#~ msgstr ""
+#~ "Le restrizioni di spesa complessiva per categoria saranno sovrascritte da "
+#~ "quelle attuali. Imposta zero per non applicare restrizioni."
+
+#~ msgid "Add category rule"
+#~ msgstr "Aggiungi regola categoria"
+
+#~ msgid "Update category rule"
+#~ msgstr "Aggiorna regola categoria"
+
+#~ msgid "Return to rule list"
+#~ msgstr "Torna all'elenco regole"
+
+#~ msgid "Select at least one category"
+#~ msgstr "Seleziona almeno una categoria"
+
+#~ msgid "Select at least one option"
+#~ msgstr "Seleziona almeno un'opzione"
+
+#~ msgid "product"
+#~ msgstr "prodotto"
+
+#~ msgid "products"
+#~ msgstr "prodotti"
+
+#~ msgid "Product"
+#~ msgstr "Prodotto"
+
+#~ msgid "Edit product"
+#~ msgstr "Modifica prodotto"
+
+#~ msgid "%s product added successfully"
+#~ msgid_plural "%s products added successfully"
+#~ msgstr[0] "%s prodotto aggiunto con successo"
+#~ msgstr[1] "%s prodotti aggiunti con successo"
+
+#~ msgid "Product updated successfully"
+#~ msgstr "Prodotto aggiornato con successo"
+
+#~ msgid "%s product removed successfully"
+#~ msgid_plural "%s products removed successfully"
+#~ msgstr[0] "%s prodotto rimosso con successo"
+#~ msgstr[1] "%s prodotti rimossi con successo"
+
+#~ msgid "Product Rule list"
+#~ msgstr "Elenco regole prodotto"
+
+#~ msgid "Add Products"
+#~ msgstr "Aggiungi prodotti"
+
+#~ msgid "Product to edit"
+#~ msgstr "Prodotto da modificare"
+
+#~ msgid "Products to add"
+#~ msgstr "Prodotti da aggiungere"
+
+#~ msgid "Do not apply restrictions to this product"
+#~ msgstr "Non applicare alcuna restrizione a questo prodotto"
+
+#~ msgid "Do not apply restrictions to the selected products"
+#~ msgstr "Non applicare restrizioni ai prodotti selezionati"
+
+#~ msgid ""
+#~ "Global product restrictions will be overridden by current ones. Set zero "
+#~ "for no restrictions."
+#~ msgstr ""
+#~ "Le restrizioni globali prodotto saranno sovrascritte da quelle correnti. "
+#~ "Imposta zero per non applicare restrizioni."
+
+#~ msgid "Add product rule"
+#~ msgstr "Aggiungi regola prodotto"
+
+#~ msgid "Update product rule"
+#~ msgstr "Aggiorna regola prodotto"
+
+#~ msgid "Select at least one product"
+#~ msgstr "Seleziona almeno un prodotto"
+
+#~ msgid "tag"
+#~ msgstr "tag"
+
+#~ msgid "tags"
+#~ msgstr "tag"
+
+#~ msgid "Tag"
+#~ msgstr "Tag"
+
+#~ msgid "Edit tag"
+#~ msgstr "Modifica tag"
+
+#~ msgid "%s tag added successfully"
+#~ msgid_plural "%s tags added successfully"
+#~ msgstr[0] "%s tag aggiunto con successo"
+#~ msgstr[1] "%s tag aggiunti con successo"
+
+#~ msgid "Tag updated successfully"
+#~ msgstr "Tag aggiornato con successo"
+
+#~ msgid "%s tag removed successfully"
+#~ msgid_plural "%s tags removed successfully"
+#~ msgstr[0] "%s tag rimosso con successo"
+#~ msgstr[1] "%s tag rimossi con successo"
+
+#~ msgid "Tag Rule list"
+#~ msgstr "Elenco regole tag"
+
+#~ msgid "Add Tags"
+#~ msgstr "Aggiungi tag"
+
+#~ msgid "Tag to edit"
+#~ msgstr "Tag da modificare"
+
+#~ msgid "Tags to add"
+#~ msgstr "Tag da aggiungere"
+
+#~ msgid "Do not apply restrictions to products with the selected tags"
+#~ msgstr "Non applicare restrizioni ai prodotti con i tag selezionati"
+
+#~ msgid "Override tag restrictions"
+#~ msgstr "Sovrascrivi restrizioni tag"
+
+#~ msgid ""
+#~ "Global tag spend restrictions will be overridden by current ones. Set "
+#~ "zero for no restrictions."
+#~ msgstr ""
+#~ "Le restrizioni spesa per tag saranno sovrascritte da quelle correnti. "
+#~ "Imposta zero per non applicare restrizioni."
+
+#~ msgid "Add tag rule"
+#~ msgstr "Aggiungi regola tag"
+
+#~ msgid "Update tag rule"
+#~ msgstr "Aggiorna regola tag"
+
+#~ msgid "Select at least one tag"
+#~ msgstr "Seleziona almeno un tag"
+
+#~ msgid "Override Value Restrictions"
+#~ msgstr "Sovrascrivi restrizioni spesa"
+
+#~ msgid ""
+#~ "The product has been added to the cart bt minimum spend required for "
+#~ "products tagged {tag_name} ({limit}) has not been reached yet."
+#~ msgstr ""
+#~ "Il prodotto è stato aggiunto al carrello, ma la spesa minima richiesta "
+#~ "per i prodotti con il tag {tag_name} ({limit}) non è stata ancora "
+#~ "raggiunta."

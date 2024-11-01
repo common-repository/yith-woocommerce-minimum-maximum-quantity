@@ -1,0 +1,220 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Minimum Maximum Quantity\n"
+"POT-Creation-Date: 2015-12-23 14:24+0100\n"
+"PO-Revision-Date: 2015-12-23 14:24+0100\n"
+"Last-Translator: \n"
+"Language-Team: Your Inspiration Themes <plugins@yithemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: ../class.yith-wc-min-max-qty.php:129 ../class.yith-wc-min-max-qty.php:135
+msgid "General Settings"
+msgstr ""
+
+#: ../class.yith-wc-min-max-qty.php:130
+msgid "Message Settings"
+msgstr ""
+
+#: ../class.yith-wc-min-max-qty.php:131
+msgid "Bulk Actions"
+msgstr ""
+
+#: ../class.yith-wc-min-max-qty.php:132
+msgid "How To"
+msgstr ""
+
+#: ../class.yith-wc-min-max-qty.php:136 ../class.yith-wc-min-max-qty.php:469
+msgid "Premium Version"
+msgstr ""
+
+#: ../class.yith-wc-min-max-qty.php:142
+msgctxt "plugin name in admin page title"
+msgid "Minimum Maximum Quantity"
+msgstr ""
+
+#: ../class.yith-wc-min-max-qty.php:143
+msgctxt "plugin name in admin WP menu"
+msgid "Minimum Maximum Quantity"
+msgstr ""
+
+#: ../class.yith-wc-min-max-qty.php:176
+msgid "Cart updated."
+msgstr ""
+
+#: ../class.yith-wc-min-max-qty.php:334
+#, php-format
+msgid "Your cart must contain at least %s products."
+msgstr ""
+
+#: ../class.yith-wc-min-max-qty.php:346
+#, php-format
+msgid "Your cart cannot contain more than %s products."
+msgstr ""
+
+#: ../class.yith-wc-min-max-qty.php:466
+msgid "Settings"
+msgstr ""
+
+#: ../class.yith-wc-min-max-qty.php:496
+msgid "Plugin Documentation"
+msgstr ""
+
+#: ../init.php:23
+msgid ""
+"You can't activate the free version of YITH WooCommerce Minimum Maximum "
+"Quantity while you are using the premium one."
+msgstr ""
+
+#: ../init.php:31
+msgid ""
+"YITH WooCommerce Minimum Maximum Quantity is enabled but not effective. It "
+"requires WooCommerce in order to work."
+msgstr ""
+
+#: ../plugin-options/general-options.php:20
+msgid "Minimum Maximum Quantity settings"
+msgstr ""
+
+#: ../plugin-options/general-options.php:24
+msgid "Enable YITH WooCommerce Minimum Maximum Quantity"
+msgstr ""
+
+#: ../plugin-options/general-options.php:35
+msgid "Cart restrictions"
+msgstr ""
+
+#: ../plugin-options/general-options.php:39
+msgid "Minimum quantity restriction"
+msgstr ""
+
+#: ../plugin-options/general-options.php:41
+msgid "Minimum number of items in cart. Set zero for no restrictions."
+msgstr ""
+
+#: ../plugin-options/general-options.php:50
+msgid "Maximum quantity restriction"
+msgstr ""
+
+#: ../plugin-options/general-options.php:52
+msgid "Maximum number of items in cart. Set zero for no restrictions."
+msgstr ""
+
+#: ../templates/admin/premium.php:289 ../templates/admin/premium.php:406
+#, php-format
+msgid ""
+"Upgrade to %1$spremium version%2$s of %1$sYITH WooCommerce Minimum Maximum "
+"Quantity%2$s to benefit from all features!"
+msgstr ""
+
+#: ../templates/admin/premium.php:292 ../templates/admin/premium.php:409
+msgid "UPGRADE"
+msgstr ""
+
+#: ../templates/admin/premium.php:293 ../templates/admin/premium.php:410
+msgid "to the premium version"
+msgstr ""
+
+#: ../templates/admin/premium.php:299
+msgid "Premium Features"
+msgstr ""
+
+#: ../templates/admin/premium.php:303 ../templates/admin/premium.php:309
+msgid "Quantity restrictions"
+msgstr ""
+
+#: ../templates/admin/premium.php:312
+#, php-format
+msgid ""
+"With the premium version of the plugin, you will be free to apply "
+"%1$srestrictions%2$s to the purchase process according to the number of "
+"products in the cart, or to the amount of elements selected by users. And "
+"there is more: the restriction process can also be applied to %1$sproduct "
+"categories%2$s and %1$stags,%2$s depending on the related objects available "
+"in the cart."
+msgstr ""
+
+#: ../templates/admin/premium.php:323
+msgid "Spend amount restrictions"
+msgstr ""
+
+#: ../templates/admin/premium.php:326
+#, php-format
+msgid ""
+"Even the spend amount can be managed with the plugin, with the freedom to "
+"set a %1$sminimum and maximum spend amount%2$s on the cart total. Moreover, "
+"you can monitor the spend amount considering the products of the same "
+"category or tag. More and more solutions for the best result."
+msgstr ""
+
+#: ../templates/admin/premium.php:330
+msgid "Spend restriction"
+msgstr ""
+
+#: ../templates/admin/premium.php:337 ../templates/admin/premium.php:343
+msgid "Purchase rules"
+msgstr ""
+
+#: ../templates/admin/premium.php:346
+#, php-format
+msgid ""
+"If you have decided to apply restrictions to your shop, it is vital that "
+"your users are well informed about the %1$sconditions%2$s you decided to "
+"apply for the purchase of particular products of your store. Activate the "
+"complete display of the purchase %1$srules%2$s in the product detail page, "
+"choosing their best position in order to let your users complete their "
+"orders with no hitches."
+msgstr ""
+
+#: ../templates/admin/premium.php:357
+msgid "Error messages "
+msgstr ""
+
+#: ../templates/admin/premium.php:360
+#, php-format
+msgid ""
+"The more restrictions you will apply to the cart, the more your users could "
+"encounter problems in completing their orders. Activate %1$serror messages"
+"%2$s and customize them in the best way to give always the necessary "
+"information to complete a purchase process."
+msgstr ""
+
+#: ../templates/admin/premium.php:364
+msgid "Error messages"
+msgstr ""
+
+#: ../templates/admin/premium.php:371 ../templates/admin/premium.php:377
+msgid "Product exclusion"
+msgstr ""
+
+#: ../templates/admin/premium.php:380
+#, php-format
+msgid ""
+"When you have a vast shop, you could need to apply different strategies on "
+"your products. If you have configured restrictions, %1$syou can exclude one "
+"or more products%2$s to let your users purchase them directly."
+msgstr ""
+
+#: ../templates/admin/premium.php:391 ../templates/admin/premium.php:398
+msgid "Bulk actions"
+msgstr ""
+
+#: ../templates/admin/premium.php:394
+#, php-format
+msgid ""
+"Vey often you need to apply the same edit to more products of the shop, and "
+"this action can require an annoying amount of time. The plugin has been "
+"conceived with a section where you can apply a %1$ssingle action on more "
+"products,%2$s adding particular restrictions about quantity and spend amount "
+"for the products of the carts."
+msgstr ""
